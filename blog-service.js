@@ -2,11 +2,8 @@ const Sequelize = require('sequelize');
 const env = require("dotenv");
 env.config();
 
-var sequelize = new Sequelize(
-    process.env.PG_USERDB, 
-    process.env.PG_USERDB, 
-    process.env.PG_PASSWORD, {
-    host: process.env.PG_HOST,
+var sequelize = new Sequelize('qbyugsmt','qbyugsmt','w45yVx1q7TvXcnKVPaEL6ll8zEcDJCoL' {
+    host: 'stampy.db.elephantsql.com',
     dialect: 'postgres',
     port: 5432,
     dialectOptions: {
