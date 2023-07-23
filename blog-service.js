@@ -3,11 +3,11 @@ const { gte } = Sequelize.Op;
 
 // set up sequelize to point to our postgres database
 var sequelize = new Sequelize(
-  "tgxufbkt",
-  "tgxufbkt",
-  "Jcv_k8x_AoNEzn36l-r6Q24T7Oy1nIud",
+  "qbyugsmt",
+  "qbyugsmt",
+  "w45yVx1q7TvXcnKVPaEL6ll8zEcDJCoL",
   {
-    host: "babar.db.elephantsql.com",
+    host: "stampy.db.elephantsql.com",
     dialect: "postgres",
     port: 5432,
     dialectOptions: {
@@ -16,6 +16,7 @@ var sequelize = new Sequelize(
     query: { raw: true },
   }
 );
+
 
 // Defining the Post Model
 const Post = sequelize.define("Post", {
